@@ -1,0 +1,21 @@
+{
+	"name": "inscricoes-backend",
+	"version": "1.0.0",
+	"description": "Controle de inscrições da Guarda Mirim de Suzano",
+	"main": "loader.js",
+	"scripts": {
+		"dev": "nodemon",
+		"start": "pm2 start --name api-gms"
+	},
+	"author": "Daniel Lucas",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.4",
+		"mongoose": "^5.4.22",
+		"node-restful": "^0.2.6"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.10"
+	}
+}
